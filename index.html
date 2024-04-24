@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>My Blog</title>
+</head>
+<body>
+    <div class="card">
+        <h2>What's on your mind?</h2>
+        <form method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="input-group">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" placeholder="The Man in the Arena"/>
+            </div>
+            <div class="input-group">
+                <label for="content">Content</label>
+                <input type="text" name="content" id="content" placeholder="It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat..." />
+            </div>
+            <div id="msg"></div>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
