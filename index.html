@@ -6,13 +6,28 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>My Blog</title>
 </head>
-<body>
+<body class="container light">
+    <header>
+        <h1>My First Blog</h1>
+        <nav class="tabs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="posts.html">Library</a></li>
+            </ul>
+        </nav>
+        <div class="theme">
+            <button id="theme-toggle">LIGHT | DARK</button>
+          </div>
+        </div>
+    </header>
+
     <div class="card">
         <h2>What's on your mind?</h2>
         <form method="POST">
             <div class="input-group">
                 <label for="username">Username</label>
-                <input type="text" name="username" id="username" />
+                <input type="text" name="username" id="username" placeholder="Teddy-Roosevelt" />
             </div>
             <div class="input-group">
                 <label for="title">Title</label>
@@ -22,10 +37,22 @@
                 <label for="content">Content</label>
                 <input type="text" name="content" id="content" placeholder="It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat..." />
             </div>
-            <div id="msg"></div>
-            <button id="submit">Submit</button>
+            <div>
+                <h4 id="response"></h3>
+            </div>
+            <button id="submit" class="submit">SUBMIT</button>
         </form>
     </div>
+    <footer>
+        <nav class="links">
+            <ul>
+                <li>Made with love by Chris</li>
+                <li><a href="https://crob127.github.io/Challenge-02-02/">Portfolio</a></li>
+                <li><a href="https://crob127.github.io/Challenge-02-02/">Blog</a></li>
+                <li><a href="mailto:ccr148@gmail.com">Email</a></li>
+            </ul>
+        </nav>
+    </footer>
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
