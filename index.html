@@ -16,10 +16,6 @@
                 <li><a href="posts.html">Library</a></li>
             </ul>
         </nav>
-        <div class="theme">
-            <button id="theme-toggle">LIGHT | DARK</button>
-          </div>
-        </div>
     </header>
 
     <div class="card">
@@ -33,10 +29,10 @@
                 <label for="title">Title</label>
                 <input type="text" name="title" id="title" placeholder="The Man in the Arena"/>
             </div>
-            <div class="input-group">
-                <label for="content">Content</label>
-                <input type="text" name="content" id="content" placeholder="It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat..." />
-            </div>
+            <form class="form-group">
+                <label id="content" for="content">Content</label>
+                <textarea></textarea>
+            </form>
             <div>
                 <h4 id="response"></h3>
             </div>
@@ -55,4 +51,15 @@
     </footer>
     <script src="/assets/js/script.js"></script>
 </body>
+
+<!--
+<div class="input-group">
+    <label for="content">Content</label>
+    <input type="text" name="content" id="content" placeholder="It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat..." />
+</div>
+-->
+
 </html>
+
+
+
